@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <section class="navigation_icon">
+          <span class="topbar"></span>
+          <span class="middlebar"></span>
+          <span class="bottombar"></span>
+        </section>
+
+        <ul class="navigation_ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="WFHlogo">
+      <a class="WFH" href="#">WashFreeHand </a>
+    </div>
+    <div class="prolife_img">
+      <img src="images.jpg" />
+      <div class="prolife_text">
+        Prashant
+      </div>
+      <div class="aboutmecontain">
+        <div class="aboutme">
+          About Me !!
+        </div>
+        <div class="aboutmewhat">
+          hi my name is prashant gupta and is live in uttam anme witah
+          afamily<br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+          and this is my whole story
+        </div>
+      </div>
+      <div class="profile_email">
+        prashantgupta99<br />
+        <br />
+        prashantgupta99.20@gmail.com
+        <br />
+        <br />
+        <div class="update">
+          <a class="updates" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Update_Profile
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+      $(function() {
+        $(".navigation_icon").click(function() {
+          $(".navigation").toggleClass("navigation-open");
+        });
+      });
+    </script>
+  </body>
+</html>
